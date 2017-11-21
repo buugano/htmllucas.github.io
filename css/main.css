@@ -1,4 +1,24 @@
- h1 {
+body{
+ 
+background:linear-gradient(132deg,green,DodgerBlue);     
+background:-Safari-webkit-linear-gradient(132deg,green,DodgerBlue); 
+background:-Chrome-webkit- linear-gradient(132deg,green,DodgerBlue);
+background-image:-ms-linear-gradient(132deg,green,DodgerBlue);
+background-image:-o-linear-gradient(132deg,green,DodgerBlue);
+background-image:-moz-linear-gradient(132deg,green,DodgerBlue);
+background-image:-webkit-linear-gradient(132deg,green,DodgerBlue);
+background-image:-webkit-linear-gradient(132deg,green,DodgerBlue);
+   background-size:400% 400% ;
+        animation: backgroundgradient 40s ease infinite;    
+        }
+
+@keyframes     backgroundgradient {
+            0%{background-position: 0% 50%; }
+            50%{background-position: 100% 50%;}
+            100%{background-position: 0% 50%;}    
+        }
+
+h1 {
             left: 50%;
             top:50%;
             font-family: open Sans,sans-serif;
